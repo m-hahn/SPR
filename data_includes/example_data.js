@@ -10,6 +10,12 @@ var defaults = [
     "DashedSentence", {
         mode: "self-paced reading"
     },
+    "AcceptabilityJudgment", {
+        as: ["1", "2", "3", "4", "5", "6", "7"],
+        presentAsScale: true,
+        instructions: "Use number keys or click boxes to answer.",
+        leftComment: "(Bad)", rightComment: "(Good)"
+    },
     "Question", {
         hasCorrect: true
     },
