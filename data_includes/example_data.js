@@ -61,7 +61,10 @@ var items = [
             age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
         }
     } ],
-
+   ["intro", "Form", {consentRequired: true, html: {include: "intro.html" }} ],
+   ["intro", "Form", {consentRequired: true, html: {include: "intro1.html" }} ],
+   ["intro", "Form", {consentRequired: true, html: {include: "intro2.html" }} ],
+   ["intro", "Form", {consentRequired: true, html: {include: "intro3.html" }} ],
     //
     // Three practice items for self-paced reading (one with a comprehension question).
     //
