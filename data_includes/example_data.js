@@ -10,12 +10,6 @@ var defaults = [
     "DashedSentence", {
         mode: "self-paced reading"
     },
-    "AcceptabilityJudgment", {
-        as: ["1", "2", "3", "4", "5", "6", "7"],
-        presentAsScale: true,
-        instructions: "Use number keys or click boxes to answer.",
-        leftComment: "(Bad)", rightComment: "(Good)"
-    },
     "Question", {
         hasCorrect: true
     },
@@ -69,7 +63,7 @@ var items = [
     ["practice", "DashedSentence", {s: "This is another practice sentence with a practice question following it."},
                  "Question", {hasCorrect: false, randomOrder: false,
                               q: "How would you like to answer this question?",
-                              as: ["Press 1 or click here for this answer.",
+                              as: ["XXX Press 1 or click here for this answer.",
                                    "Press 2 or click here for this answer.",
                                    "Press 3 or click here for this answer."]}],
     ["practice", "DashedSentence", {s: "This is the last practice sentence before the experiment begins."}],
